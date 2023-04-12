@@ -1,0 +1,19 @@
+.p-search {
+    gap: 10px;
+    &.c-icon--grass {
+        left: 36px;
+    }
+    &__input {
+        &.c-input--search {
+            box-sizing: border-box;
+            width: 216px;
+            height: 46px;
+        }
+    }
+    &__button {
+        &.c-button {
+            width: 90px;
+            height: 46px;
+        }
+    }
+}
