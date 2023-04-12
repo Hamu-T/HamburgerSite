@@ -1,0 +1,18 @@
+.l-section {
+    background-image: url(../../images/dummy.jpg);
+    background-size: 100vw;
+    height: 285px;
+    &__title {
+        &.c-dummy--title {
+            font-family: M+ 1m;
+            font-size: 50px;
+            font-weight: 700;
+            line-height: 53px;
+            letter-spacing: 0em;
+            text-align: left;
+            padding: 122px 134px 11px 50px;
+            color: #fff;
+        
+        }
+    }
+}
