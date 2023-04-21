@@ -1,0 +1,13 @@
+.c-content-box {
+    background-color:rgb(255, 255, 255,0.5);
+    &__title {
+        &.c-title {
+            color: #000;
+            font-size: 20px;
+            padding: 16px 0 0 16px;
+        }
+    }
+    &__content {
+        padding: 0 16px 16px 16px;
+    }
+}

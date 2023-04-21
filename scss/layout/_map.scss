@@ -1,0 +1,45 @@
+.l-map {
+    position: relative;
+    &__iframe {
+        height: 649px;
+        width: 100%;
+        aspect-ratio: 16/9;
+        opacity: 59.71%;
+    }
+    &__section {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 70%;
+        height: 649px;
+        background-color: rgba(0,0,0,28.55%);
+        &__c-text {
+            position: absolute;
+            top: 86px;
+            left: 119px;
+            font-size: 36px;
+            color: #fff;
+        }
+        &__c-border {
+            position: absolute;
+            margin-top: 190px;
+            margin-left: 119px;
+            width: 75px;
+            height: 4px;
+            background-color: #fff;
+        }
+        &__content {
+            position: absolute;
+            width: 697px;
+            height: 326px;
+            top: 248px;
+            left: 119px;
+            font-family: M+ 1m;
+            font-weight: 700;
+            font-style: bold;
+            font-size: 16px;
+            line-height: 33px;
+            color: #fff;
+        }
+    }
+}

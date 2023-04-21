@@ -1,4 +1,6 @@
 .p-search {
+    display: grid;
+    grid-template-columns: auto auto;
     gap: 10px;
     &.c-icon--grass {
         left: 36px;
@@ -6,14 +8,15 @@
     &__input {
         &.c-input--search {
             box-sizing: border-box;
-            width: 216px;
+            width: 396px;
             height: 46px;
         }
     }
     &__button {
         &.c-button {
-            width: 90px;
+            width: 136px;
             height: 46px;
+            margin-right: 14px;
         }
     }
 }

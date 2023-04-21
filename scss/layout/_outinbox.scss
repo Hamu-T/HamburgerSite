@@ -1,0 +1,74 @@
+.l-outin-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 80px;
+    margin: 100px;
+}
+.l-outin-box {
+    // margin-top: 30px;
+    margin: 20px;
+    display: grid;
+    grid-template: 
+    "... ...... ..." 
+    "... title  ..." 48px
+    "... ...... ..." 32px
+    "... border ..." 1fr
+    "... ...... ..." 
+    "... box1   ..." 156px
+    "... ...... ..." 16px
+    "... box2   ..." 156px
+    "... ...... ..." 16px;
+    background-size: 100vw;
+    min-height: 1197px;
+    &__title {
+        &.c-title {
+            grid-area: title;
+            height: 48px;
+            padding-top: 24px;
+            padding-left: 11px;
+            // padding-left: 15px;
+            font-size: 80px;
+            color: #EAEAEA;
+        }
+    }
+    &__border {
+        &.c-border {
+            margin-top: 70px;
+            margin-left: 18px;
+            width: 63px;
+            grid-area: border;
+            background-color: #fff;
+
+        }
+    }
+    .box1 {
+        grid-area: box1;
+    }
+    .box2 {
+        grid-area: box2;
+    }
+
+}
+.l-takeout-box {
+    &.l-outin-box {
+        background-image: url(../../images/takeout.jpg);
+    }
+}
+.l-eatin-box {
+    &.l-outin-box {
+        background-image: url(../../images/eatin.jpg);
+    }
+}
+.c-content-box {
+    &__title {
+        &.c-text {           
+            padding: 16px 0 8px 16px;
+            font-style: bold;
+            font-size: 24px;
+        }
+    }
+    &__content {
+        font-size: 16px;
+        text-align: center;
+    }
+}

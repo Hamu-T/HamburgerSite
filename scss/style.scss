@@ -1,12 +1,25 @@
+/* foundation */
 // @use './foundation/*';
 @use './foundation/_base';
+
+/* layout */
 @use './layout/_header';
-@use './layout/_section';
+@use './layout/_article';
 @use './layout/_sidebar';
+@use './layout/_outinbox';
+@use './layout/_footer';
+@use './layout/_map';
+
+/* project */
 @use './object/project/_search';
+
+/* component */
+@use './object/component/_border';
 @use './object/component/_button';
-@use './object/component/_input';
+@use './object/component/_contentbox';
 @use './object/component/_icon';
 @use './object/component/_image';
+@use './object/component/_input';
+@use './object/component/_text';
 
 // @use './object/utility/*';

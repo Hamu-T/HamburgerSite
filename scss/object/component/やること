@@ -1,0 +1,8 @@
+1 layoutの修正
+  - gridで比率を変える
+2 headerの修正
+  - search-formの位置の修正
+  - 虫眼鏡を一旦外に出して、inputボタンの中に入れ直す
+    - divで虫眼鏡を作成、relativeとabsoluteを使う
+3 takeout-box,eatin-boxを横に並べる
+4 map を挿入
