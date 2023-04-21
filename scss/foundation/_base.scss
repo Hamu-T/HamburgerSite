@@ -2,3 +2,24 @@
     padding: 0;
     margin: 0;
 }
+.wrapper {
+    display: grid;
+    grid-template: 
+    ' head head side ' 215px
+    ' main main side ' 1fr
+    ' foot foot foot ' 150px
+    /1fr 1fr 367px;
+    height: 100vh;
+}
+.l-header {
+    grid-area: head;
+}
+.l-main {
+    grid-area: main;
+}
+.l-sidebar {
+    grid-area: side;
+}
+.l-footer {
+    grid-area: foot;
+}
