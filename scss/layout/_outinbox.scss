@@ -2,11 +2,16 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 80px;
-    margin: 100px;
+    margin: 10%;
+    @media screen and ( max-width: 1400px ) {
+        gap: 40px;
+        margin: 5%;
+    }
 }
 .l-outin-box {
     // margin-top: 30px;
-    margin: 20px;
+    // margin: 20px;
+    padding: 0 20px;
     display: grid;
     grid-template: 
     "... ...... ..." 
@@ -14,10 +19,10 @@
     "... ...... ..." 32px
     "... border ..." 1fr
     "... ...... ..." 
-    "... box1   ..." 156px
+    "... box1   ..." 17%
     "... ...... ..." 16px
-    "... box2   ..." 156px
-    "... ...... ..." 16px;
+    "... box2   ..." 17%
+    "... ...... ..." 20px;
     background-size: 100vw;
     min-height: 1197px;
     &__title {

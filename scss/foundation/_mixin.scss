@@ -1,0 +1,16 @@
+/* mixin */
+@mixin mid($width: 1400px) {
+    @media ( max-width: $width ) {
+        @content;
+    }
+}
+@mixin tab($width: 768px) {
+    @media ( max-width: $width ) {
+        @content;
+    }
+}
+@mixin sp($width: 767px) {
+    @media ( min-width: $width ) {
+        @content;
+    }
+}

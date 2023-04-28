@@ -1,17 +1,16 @@
-.l-article {
+.l-main__visual {
+    display: grid;
     background-image: url(../../images/dummy.jpg);
     background-size: 100vw;
-    height: 285px;
+    min-height: 530px;
+    align-items: center;
     &__title {
-        &.c-dummy--title {
             font-size: 36px;
             font-weight: 700;
             line-height: 53px;
             letter-spacing: 0em;
             text-align: left;
-            padding: 122px 134px 11px 86px;
+            padding-left: 86px;
             color: #fff;
-        
-        }
     }
 }

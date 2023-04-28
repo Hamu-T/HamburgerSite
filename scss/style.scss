@@ -1,6 +1,9 @@
+
+
 /* foundation */
 // @use './foundation/*';
 @use './foundation/_base';
+@use './foundation/_mixin';
 
 /* layout */
 @use './layout/_header';
@@ -22,4 +25,5 @@
 @use './object/component/_input';
 @use './object/component/_text';
 
-// @use './object/utility/*';
+/* utility */
+@use './object/utility/_margin';

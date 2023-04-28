@@ -1,14 +1,19 @@
+
+
 * {
     padding: 0;
     margin: 0;
 }
+ul li {
+    list-style: none;
+}
 .wrapper {
     display: grid;
     grid-template: 
-    ' head head side ' 215px
-    ' main main side ' 1fr
-    ' foot foot foot ' 150px
-    /1fr 1fr 367px;
+    ' head side ' 215px
+    ' main side ' 1fr
+    ' foot foot ' 150px
+    /1fr 19%;
     height: 100vh;
 }
 .l-header {
