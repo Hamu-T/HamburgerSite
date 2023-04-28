@@ -2,14 +2,19 @@
     display: grid;
     grid-template-columns: auto auto;
     gap: 10px;
+    width: 446px;
     &.c-icon--grass {
-        left: 36px;
+        margin-left: 36px;
     }
     &__input {
         &.c-input--search {
             box-sizing: border-box;
             width: 396px;
             height: 46px;
+            &::placeholder {
+                padding-left: 50px;
+            }
+            
         }
     }
     &__button {
